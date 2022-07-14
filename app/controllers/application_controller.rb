@@ -8,7 +8,7 @@ private
 def record_invalid(x)
     render json: {errors: x.record.errors.full_messages}, status:422
 end
-
+#the world
 def record_not_found(x)
     render json: {error: "Item Not Found" }, status:404
 end
